@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #63989f;
+}
+
+.menu{
+    float: right;
+ }
+
+ nav{
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    border-bottom:2px solid #112B3C;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+a.tbl-merah{
+    background: #2F8F9D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover{
+    background: #B3E8E5;
+    text-decoration: none;
+}
+
+.kolom h1{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color:#112B3C
+    font-weight: bold;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.deskripsi p{
+    text-align: center;
+    font-family: 'comic sans ms';
+    padding-top: 50px;
+}
+
+
+
+ 
+

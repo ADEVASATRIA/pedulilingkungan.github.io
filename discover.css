@@ -1,0 +1,296 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #63989f;
+}
+
+.menu{
+    float: right;
+ }
+
+nav{
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    border-bottom:2px solid #112B3C;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+a.tbl-merah{
+    background: #2F8F9D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover{
+    background: #B3E8E5;
+    text-decoration: none;
+}
+
+.discover h4{
+    font-family: 'comic sans ms';
+    color: #112B3C;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+
+.discover img {
+    padding-left: 400px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.menu-discover h2{
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    color:#2F8F9D;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.menu-discover p{
+    text-align: justify;
+    padding-left: 500px;
+    padding-right: 80px;
+    font-family: 'comic sans ms';
+}
+
+.menu-discover h1 {
+    font-family: 'comic sans ms';
+    font-weight: 200;
+    font-size: small;
+    color: #112B3C;
+    width: auto;
+    text-align: left;
+    padding-top: 220px;
+    padding-left: 470px;
+}
+
+h2 {
+    padding-top: 20px;
+    font-family: 'comic sans ms';
+    padding-left: 100px;
+    color: #2F8F9D;
+    font-size: 30px;
+    width: 40%;
+    font-weight: 200;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.sampah-organik {
+    font-family: 'comic sans ms';
+    padding: 10px;
+    color: #2F8F9D;
+    font-size: 30px;
+    width: 40%;
+    font-weight: 200;
+    text-align: center;
+    padding-left: 200px;
+}
+.sampah-organik h1{
+    font-size: 10px;
+    color: #112B3C;
+}
+h4 {
+    font-family: 'comic sans ms';
+    text-align: center;
+    font-size: 15px;
+    color: #112B3C;
+    padding-left: 50px;
+}
+
+.jenis-sampahorganik {
+    font-family: 'comic sans ms';
+    padding-top: 50px;
+    color: #2F8F9D;
+    font-size: 30px;
+    width: 40%;
+    font-weight: 200;
+    text-align: right;
+}
+h5 {
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: #112B3C;
+    text-align: center;
+    padding-bottom: 10px; 
+}
+
+h6{
+    text-align: justify;
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contoh-organik p{
+    text-align: center;
+    font-family: 'comic sans ms';
+    padding-top: 20px;
+}
+
+.contoh-organik h1{
+    font-family: 'comic sans ms';
+    text-align: center;
+    padding-left: 50px;
+    font-size: 15px;
+    padding-bottom: 100px;
+}
+
+.contoh-organik img{
+    padding-left: 530px;
+}
+
+.manfaat-organik img{
+    padding-left: 325px;
+    padding-top: 40px;
+    width: 30%;
+}
+.manfaat-organik h1{
+    padding-right: 100px;
+    font-family: 'comic sans ms';
+    font-size: small;
+}
+
+.manfaat-organik p{
+    font-family: 'comic sans ms';
+    color: #2F8F9D;
+    font-size: 30px;
+    text-align: center;
+}
+
+.manfaat-organik h1{
+    text-align: left;
+    padding-left: 320px;
+    padding-bottom: 50px;
+}
+
+.manfaat-organik h2{
+    text-align: justify;
+    padding-left: 100px;
+    font-size: 20px;
+    color: #112B3C;
+}
+
+.manfaat-organik h4{
+    font-family: 'comic sans ms';
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 60px;
+}
+.manfaat-anorganik h1{
+    font-family: 'comic sans ms';
+}
+
+.sampah-organik img {
+    width: 40%;
+}
+
+.manfaat-anorganik p{
+    font-family: 'comic sans ms';
+    padding-top: 50px;
+    color: #2F8F9D;
+    font-size: 30px;
+    width: 40%;
+    font-weight: 200;
+    text-align: center;
+    padding-left: 600px;
+}
+
+.manfaat-anorganik h1{
+    font-size: medium;
+    text-align: center; 
+}
+
+.pengelolahan-sampah p{
+    font-family: 'comic sans ms';
+    padding-top: 50px;
+    color: #2F8F9D;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.pengelolahan-sampah h1{
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+footer {
+    padding: 100px o;
+    background-color: #112B3C;
+    color: #63989f;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
